@@ -1,0 +1,61 @@
+/*Programmer Name: 96
+The stylesheet for the whole program, only really changes the buttons and background colour
+  */
+body {
+	background-color: #536878;
+	font-family: "Inter", sans-serif;
+	margin-left: 2rem;
+	color: #FFFFFF;
+}
+
+.dishplaydishes {
+	text-align: center;
+
+}
+
+.return {
+	padding: 15px 30px;
+        border-radius: 10px;
+        background-color: #FFFFFF; /* No fill color */
+        color: #000000; /* Text color */
+        font-weight: bold; /* Bold text */
+        text-align: center;
+        display: inline-block; /* Allows width to fit content */
+        cursor: pointer; /* Hover effect */
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+}
+
+.return:hover {
+	background-color: #536878;
+	color: #FFFFFF
+
+}
+
+h2 {
+	text-align: center;
+}
+
+form {
+	margin-left: 5rem;
+}
+
+input {
+	padding: 9px 18px;
+	border-radius: 10px;
+	background-color: #FFFFFF; /* No fill color */
+   	color: #000000; /* Text color */
+    	font-weight: bold; /* Bold text */
+    	text-align: center;
+    	display: inline-block; /* Allows width to fit content */
+    	cursor: pointer; /* Hover effect */
+    	font-family: "Inter", sans-serif;
+    	font-optical-sizing: auto;
+    	font-style: normal;
+}
+
+input[type=submit]:hover {
+	background-color: #536878;
+	color: #FFFFFF
+}
